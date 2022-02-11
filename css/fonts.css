@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'TT ChocolatesBold';
+    src: url('../fonts/TT ChocolatesBold/TTChocolates-Bold.eot');
+    src: local('../fonts/TT ChocolatesBold/TT Chocolates Bold'), local('TTChocolates-Bold'),
+        url('../fonts/TT ChocolatesBold/TTChocolates-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TT ChocolatesBold/TTChocolates-Bold.woff2') format('woff2'),
+        url('../fonts/TT ChocolatesBold/TTChocolates-Bold.woff') format('woff'),
+        url('../fonts/TT ChocolatesBold/TTChocolates-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT ChocolatesRegular';
+    src: url('../fonts/TT ChocolatesRegular/TTChocolates-Regular.eot');
+    src: local('../fonts/TT ChocolatesRegular/TT Chocolates Regular'), local('TTChocolates-Regular'),
+        url('../fonts/TT ChocolatesRegular/TTChocolates-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TT ChocolatesRegular/TTChocolates-Regular.woff2') format('woff2'),
+        url('../fonts/TT ChocolatesRegular/TTChocolates-Regular.woff') format('woff'),
+        url('../fonts/TT ChocolatesRegular/TTChocolates-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT ChocolatesMedium';
+    src: url('../fonts/TT ChocolatesMedium/TTChocolates-Medium.otf') format('opentype');
+}
+ @font-face {
+    font-family: 'Comic CATRegular';
+    src: url('../fonts/Comic CATRegular/Comic_CAT.otf') format('opentype');
+}
