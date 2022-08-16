@@ -8,3 +8,4 @@ Used HTML/CSS/JS
 
 Author: Danil Maiorov
 
+https://danilmaiorov.github.io/Pawadise_catsBrushes_FL/
