@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./script/burger.js" defer></script>
+    <script src="./script/cart.js" defer></script>
     <title>Pawadise</title>
 </head>
 
@@ -108,14 +109,14 @@
                             dog</span>
                     </div>
                     <div class="info-btns">
-                        <button class="button green-btn green-btn-top" type="button">Shop now <img
-                                src="./img/akar-icons_shopping-bag.png" alt="bag-icon" width="32"></button>
-                        <button class="button orange-btn orange-btn-top" type="button">Explore more</button>
+                        <a href="./product-page.html" class="button green-btn green-btn-top" type="button">Shop now <img
+                                src="./img/akar-icons_shopping-bag.png" alt="bag-icon" width="32"></a>
+                        <a href="#advantages" class="button orange-btn orange-btn-top" type="button">Explore more</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="advantages">
+        <section class="advantages" id="advantages">
             <div class="container">
                 <div class="advantages-block">
                     <div class="advantages__gif">
@@ -199,19 +200,19 @@
                             <div class="cards-item__img">
                                 <img src="./img/card-1.png" alt="green-brush">
                             </div>
-                            <button class="button colors-button green">Green</button>
-                        </div>
-                        <div class="colors__cards-item">
-                            <div class="cards-item__img">
-                                <img src="./img/card-2.png" alt="white-brush">
-                            </div>
-                            <button class="button colors-button white">White</button>
+                            <a href="./product-page.html" class="button colors-button green">Green</a>
                         </div>
                         <div class="colors__cards-item">
                             <div class="cards-item__img">
                                 <img src="./img/card-3.png" alt="purple-brush">
                             </div>
-                            <button class="button colors-button purple">Purple</button>
+                            <a href="./product-page.html" class="button colors-button purple">Purple</a>
+                        </div>
+                        <div class="colors__cards-item">
+                            <div class="cards-item__img">
+                                <img src="./img/card-2.png" alt="white-brush">
+                            </div>
+                            <a href="./product-page.html" class="button colors-button white">White</a>
                         </div>
                     </div>
                 </div>
@@ -230,8 +231,8 @@
                         <div class="pluses__text info-description">
                             <span>Time spent brushing your cat can help deepen the bond between the two of you</span>
                         </div>
-                        <button class="button green-btn pluses-btn" type="button">Shop now <img
-                                src="./img/akar-icons_shopping-bag.png" alt="bag-icon" width="32"></button>
+                        <a href="./product-page.html" class="button green-btn pluses-btn" type="button">Shop now <img
+                                src="./img/akar-icons_shopping-bag.png" alt="bag-icon" width="32"></a>
                     </div>
                 </div>
             </div>
@@ -277,8 +278,8 @@
                                     retract back into the brush. It's super easy to remove all the hair from the brush,
                                     making it ready for the next time use.</span>
                             </div>
-                            <button class="button green-btn options-btn" type="button">Shop now <img
-                                    src="./img/akar-icons_shopping-bag.png" alt="bag-icon" width="32"></button>
+                            <a href="./product-page.html" class="button green-btn options-btn" type="button">Shop now <img
+                                    src="./img/akar-icons_shopping-bag.png" alt="bag-icon" width="32"></a>
                         </div>
                         <div class="options__img">
                             <img src="./img/image25.png" alt="post-facebook">
@@ -462,6 +463,16 @@
             </div>
         </div>
     </footer>
+    <div class="cart">
+        <div class="cart__body">
+            <div class="cart__title">Your Cart</div>
+                <div class="cart__wrapper">
+                    
+                </div>
+                <div class="cart__total"> Total amount <span>0</span>$</div>
+                <button class="cart__btn orange-btn">Buy</button>
+                <div class="cart__close"></div>
+        </div>
+    </div>
 </body>
-
 </html>
