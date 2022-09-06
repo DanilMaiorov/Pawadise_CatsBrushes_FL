@@ -153,6 +153,9 @@ a {
     margin-right: 1.4rem;
     box-shadow: inset 0px -8px 43px rgba(0, 0, 0, 0.07);
 }
+.green-btn:active {
+    opacity: 0.8;
+}
 .button img {
     padding-left: 1rem;
 }
@@ -1087,9 +1090,11 @@ a {
     .colors__cards-item:last-child {
         margin-bottom: 0;
     }
+
 }
  /* extra breakpoint */
  @media (max-width: 880px) {
+
     .guaranties__right-img {
         top: 55%;
     } 
@@ -1103,25 +1108,9 @@ a {
         background: url(../img/main-first-block.png) no-repeat top 57% right;
         background-size: 46rem;
     }
+
 }
  @media (max-width: 768px) {
-/*     .header__wrapper {
-        padding-bottom: 1.5rem;
-    }
-    .header__logo, .footer__logo {
-        width: 8.7rem;
-        height: 2.7rem; 
-    }
-    .header__logo img{
-        width: 100%;
-        height: auto; 
-    }
-    .header__nav {
-        padding-right: 3rem;
-    }
-    .header__nav-shoppingbag {
-        margin-left: 3rem;
-    } */
     main {
         padding-top: 6.4rem;
     }
@@ -2155,6 +2144,10 @@ a {
     flex: 0 0 100%;
     max-width: 200px;
     height: auto;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.272);
+
 }
 .card__img-wrapper img {
     display: block;
@@ -2167,11 +2160,17 @@ a {
     font-size: 28px;
 }
 .card__count {
-    padding: 0 30px;
+    position: absolute;
+    width: 30px;
+    text-align: center;
+    right: 10%;
 }
 .card__title {
     font-size: 34px;
     padding: 15px 0;
+}
+.card__btn-plus {
+    margin-left: 50px;
 }
 .card__btn-plus,
 .card__btn-minus {
@@ -2199,6 +2198,8 @@ a {
 .card__total {
     font-size: 40px;
     padding-left: 40px;
+    position: absolute;
+    right: 200px;
 }
 .cart__total {
     font-size: 40px;
@@ -2208,14 +2209,19 @@ a {
     .cart__body {
         width: 600px;
     }
+    .card__count {
+        right: 13%;
+    }
 }
 @media (max-width: 668px) {
     .card__title,
     .card__count {
         font-size: 26px;
+        right: 15%;
     }
     .card__total {
         font-size: 30px;
+        right: 30%;
     }
     .cart__total {
         margin-bottom: 30px;
@@ -2241,14 +2247,22 @@ a {
     .card {
         display: block;
     }
+    .card__count {
+        right: 18%;
+    }
+    .card__total {
+        right: 40%;
+    }
 }
 @media (max-width: 468px) {
         .card__title,
         .card__count {
             font-size: 20px;
+            right: 22%;
         }
         .card__total {
-            font-size: 24px
+            font-size: 24px;
+            right: 50%;
         } 
 
         .cart__body {

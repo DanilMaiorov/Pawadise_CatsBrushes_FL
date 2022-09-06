@@ -35,7 +35,7 @@ const renderCart = (goods) => {
                     <button class="card__btn-minus">-</button>
                     <div class="card__count">${good.count}</div>
                     <button class="card__btn-plus">+</button>
-                    <div class="card__total" data-sum="${index}"> $${+good.price * +good.count}</div>
+                    <div class="card__total" data-sum="${index}"> $${(+good.price * +good.count).toFixed(2)}</div>
                 </div>
                 <button type="button" class="btn green-btn delete-btn">Delete</button>
             </div>
@@ -134,7 +134,6 @@ const openCart = () => {
     summary(JSON.parse(localStorage.getItem('cart')));
     renderCart(cart);
 };
-console.log(cartModal);
 addToCartBtn.addEventListener('click', () => {
     icons.forEach(item => {
         if (item.closest('.active')) {

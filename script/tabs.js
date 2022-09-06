@@ -34,10 +34,10 @@ const tabsImages = [{
         image: 'img/product-3-large.png'
     },
     {
-        image: 'img/product-4-large.png'
+        image: 'img/product-6.png'
     },
     {
-        image: 'img/product-5-large.png'
+        image: 'img/product-5.png'
     },
     {
         image: 'img/product-3-large.png'
